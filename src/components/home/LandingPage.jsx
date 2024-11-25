@@ -11,7 +11,7 @@ const LandingPage = () => {
     >
       <div className="md:mb-16 w-full px-10 h-auto flex flex-col gap-3 items-center">
         <div className="flex flex-col gap-5 items-center justify-around">
-          <h1 className="lg:text-[55px] md:text-[45px] text-[35px] font-extrabold text-white font-Poppins">
+          <h1 className="lg:text-[55px] md:text-[45px] text-center text-[35px] font-extrabold text-white font-poppins">
             Are You a Supplier?
           </h1>
           <h1 className="lg:text-[50px] md:text-[42px] md:font-[400] text-center text-[25px] sm:text-[35px] text-white relative font-poppins">
@@ -51,7 +51,7 @@ const LandingPage = () => {
           </p>
           <a
             href="#"
-            className="text-white font-poppins  md:ml-0 text-[12px] md:text-[18px] font-[300] underline"
+            className="text-white font-poppins text-center  md:ml-0 text-[12px] md:text-[18px] font-[300] underline"
           >
             Click here if you are looking to post a requirement
           </a>
