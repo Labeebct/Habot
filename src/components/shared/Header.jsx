@@ -5,7 +5,6 @@ import CloseIcon from "@mui/icons-material/Close";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const Header = () => {
-
   //State for managing menu bar
   const [open, setOpen] = useState(false);
 
@@ -28,7 +27,7 @@ const Header = () => {
       <div className="overflow-hidden">
         <img
           className="h-32 m-auto -mt-6"
-          src="../../src/assets/habot-logo.jpg"
+          src="/assets/habot-logo.jpg"
           alt="habolt-logo"
         />
       </div>

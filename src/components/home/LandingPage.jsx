@@ -1,13 +1,12 @@
 import React from "react";
 import SearchBar from "../shared/SearchBar";
-import BgImage from "../../assets/Bgimage.png";
 import BusinessCenterIcon from "@mui/icons-material/BusinessCenter";
 import PlaceIcon from "@mui/icons-material/Place";
 
 const LandingPage = () => {
   return (
     <div
-      style={{ backgroundImage: `url(${BgImage})` }}
+      style={{ backgroundImage: 'url(../../public/assets/Bgimage.png)' }}
       className="w-full bg-cover bg-fixed  h-[calc(100vh-5rem)] relative flex flex-col items-center justify-center"
     >
       <div className="md:mb-16 w-full px-10 h-auto flex flex-col gap-3 items-center">
