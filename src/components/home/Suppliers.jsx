@@ -3,7 +3,7 @@ import React from "react";
 const Suppliers = () => {
   return (
     <div className="py-10 h-auto w-full bg-[#E8FBFF] flex justify-center my-10">
-      <div className="px-5 lg:px-10 w-full h-auto gap-6 flex-col md:flex-row flex items-center justify-between">
+      <div className="px-5 lg:px-20 w-full h-auto gap-6 flex-col md:flex-row flex items-center justify-between">
         <h1 className="text-[24px] md:text-[26px] lg:text-[30px] font-poppins font-semibold">
           Let Suppliers <span className="border-b-[#EB7150] border-b-4">Find You</span>
         </h1>

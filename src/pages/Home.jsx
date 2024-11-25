@@ -5,6 +5,7 @@ import ReadyToDive from "../components/home/ReadyToDive";
 import VideoSec from "../components/home/VideoSec";
 import Suppliers from "../components/home/Suppliers";
 import HowItWorks from "../components/home/HowItWorks";
+import Footer from "../components/home/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <VideoSec />
       <Suppliers />
       <HowItWorks />
+      <Footer />
     </>
   );
 };

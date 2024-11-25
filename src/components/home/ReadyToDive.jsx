@@ -53,7 +53,7 @@ const ReadyToDive = () => {
         </div>
       </div>
 
-      <div className="flex-1 w-full px-5 h-full flex justify-center flex-col lg:flex-row gap-6 mt-8 lg:mt-0">
+      <div className="flex-1 w-full  h-full flex justify-center flex-col lg:flex-row gap-6 mt-8 lg:mt-0">
         {cities.map((column, index) => (
           <div key={index} className="flex w-full h-full flex-col gap-6">
             {column.map((city, index) => (
