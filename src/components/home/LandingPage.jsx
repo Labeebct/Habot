@@ -6,7 +6,7 @@ import PlaceIcon from "@mui/icons-material/Place";
 const LandingPage = () => {
   return (
     <div
-      style={{ backgroundImage: 'url(../../public/assets/Bgimage.png)' }}
+      style={{ backgroundImage: 'url(/assets/Bgimage.png)' }}
       className="w-full bg-cover bg-fixed  h-[calc(100vh-5rem)] relative flex flex-col items-center justify-center"
     >
       <div className="md:mb-16 w-full px-10 h-auto flex flex-col gap-3 items-center">
@@ -36,7 +36,7 @@ const LandingPage = () => {
           </div>
           <div>
             <button
-              className="p-3 bg-[#00732F]
+              className="p-3 bg-[#00732F] hover:bg-[#258c50]
             active:scale-[.95] duration-200 ease-linear 
              w-28 rounded text-white font-semibold"
             >
