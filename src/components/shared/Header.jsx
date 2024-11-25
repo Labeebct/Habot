@@ -55,7 +55,7 @@ const Header = () => {
             </span>
           </li>
           <li>
-            <button className="font-bold border-solid border border-[#00732F] h-12 w-40 bg-opacity-0 hover:bg-opacity-100 duration-200 shadow-box rounded-sm text-sm text-[#00732F] hover:text-white hover:bg-[#00732F]">
+            <button className="font-bold active:scale-[.98]  ease-linear  border-solid border border-[#00732F] h-12 w-40 bg-opacity-0 hover:bg-opacity-100 duration-200 shadow-box rounded-sm text-sm text-[#00732F] hover:text-white hover:bg-[#00732F]">
               Login / Signup
             </button>
           </li>
@@ -74,7 +74,7 @@ const Header = () => {
       </div>
 
       <div
-        className={`absolute inset-0 bg-[#000000c4] text-white flex flex-col h-[200px] w-full text-[.9rem] font-poppins justify-center items-center  transition-all duration-300 ease-linear ${
+        className={`absolute inset-0 bg-[#000000c4] text-white flex flex-col h-[200px] w-full text-[.9rem] z-50 font-poppins justify-center items-center  transition-all duration-300 ease-linear ${
           open ? "top-0" : "top-[-200px]"
         }`}
       >

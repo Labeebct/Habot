@@ -1,10 +1,14 @@
-import React from 'react'
-import Header from '../components/shared/Header'
+import React from "react";
+import Header from "../components/shared/Header";
+import LandingPage from "../components/home/LandingPage";
 
 const Home = () => {
   return (
-    <Header/> 
-  )
-}
+    <>
+      <Header />
+      <LandingPage />
+    </>
+  );
+};
 
-export default Home
+export default Home;
